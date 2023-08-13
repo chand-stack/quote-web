@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
     <title>Awesome 😊 Quotes</title>
 </head>
-<body>
-    
+<body class="container mx-auto">
+    <h1 class="text-center text-5xl font-semibold py-8">😎Awesome QUOTES</h1>
+
+    <section>
+        <div class="card w-96 bg-base-100 shadow-xl mx-auto">
+            <div class="card-body">
+              <h2 id="quote" class="card-title">"Be yourself; everyone else is already taken."</h2>
+              <p id="writer">- Oscar Wilde</p>
+              <div class="card-actions justify-end">
+                <button id="btn" class="btn btn-outline btn-secondary">New Quotes</button>
+              </div>
+            </div>
+          </div> 
+    </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>
